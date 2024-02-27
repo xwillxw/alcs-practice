@@ -23,5 +23,11 @@ class Program {
                 Current++;
             }
         }
+        if (Found == true) {
+            Console.WriteLine("Yes, they have a top score.");
+        }
+        else {
+            Console.WriteLine("No, they do not have a top score");
+        }
     }
 }
